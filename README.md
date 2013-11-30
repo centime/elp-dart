@@ -21,7 +21,6 @@ _Organisation d'un projet :
 
 
 myApp
-
 ├── build
 │   ├── packages
 
