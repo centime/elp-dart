@@ -19,25 +19,25 @@ _Organisation d'un projet :
 
 
 
-myApp
-|- build
-|   |- packages
-|   |   |- browser
-|   |       |- dart.js
-|   |       |- interop.js
-|   |- myApp.css
-|   |- myApp.dart.js
-|   |- myApp.html
-|- README.md
-|- packages
-|   |- browser -> /home/centime/.pub-cache/hosted/pub.dartlang.org/browser-0.9.0/lib
-|- pubspec.yaml
-|- server.dart
-|- web
-    |- packages -> ../packages
-    |- myApp.css
-    |- myApp.dart
-    |- myApp.html
+        myApp
+        |- build
+        |   |- packages
+        |   |   |- browser
+        |   |       |- dart.js
+        |   |       |- interop.js
+        |   |- myApp.css
+        |   |- myApp.dart.js
+        |   |- myApp.html
+        |- README.md
+        |- packages
+        |   |- browser -> /home/centime/.pub-cache/hosted/pub.dartlang.org/browser-0.9.0/lib
+        |- pubspec.yaml
+        |- server.dart
+        |- web
+            |- packages -> ../packages
+            |- myApp.css
+            |- myApp.dart
+            |- myApp.html
 
 
 
