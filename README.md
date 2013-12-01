@@ -17,31 +17,17 @@ Sont également mis à disposition :
 
 Organisation d'un projet :
 
-Sources :
-
-   *     myApp
-   *    ├── build
-        │   ├── packages
-        │   │   └── browser
-        │   │       ├── dart.js
-        │   │       └── interop.js
-        │   ├── myApp.css
-        │   ├── myApp.dart.js
-        │   └── myApp.html
-        ├── packages
-        │   └── browser -> /home/centime/.pub-cache/hosted/pub.dartlang.org/browser-0.9.0/lib
+   * myApp (sources)
         ├── pubspec.yaml
         ├── README.md
         ├── myServer.dart
         └── web
-            ├── packages -> ../packages
             ├── myApp.css
             ├── myApp.dart
             └── myApp.html
 
-En cours de fonctionnement :
-
-   *   myApp
+             
+      myApp (en fonctionnement)
         ├── build
         │   ├── packages
         │   │   └── browser
