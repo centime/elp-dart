@@ -15,7 +15,9 @@ Sont également mis à disposition :
 * Un navigateur web avec la VM dart integrée
     dartium (basé sur chromium)
 
-Organisation d'un projet :
+_Organisation d'un projet :
+
+
 
    *     myApp
         ├── build
