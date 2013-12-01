@@ -20,7 +20,7 @@ Sont également mis à disposition :
 
 Organisation d'un projet basique:
 
-   * Les sources :
+    Les sources :
    *   myApp
         ├── pubspec.yaml
         ├── README.md
@@ -30,7 +30,7 @@ Organisation d'un projet basique:
             ├── myApp.dart
             └── myApp.html
 
-   * L'app, en fonctionnement :
+    L'app, en fonctionnement :
    *   myApp
         ├── build
         │   ├── packages
@@ -51,11 +51,11 @@ Organisation d'un projet basique:
             ├── myApp.dart
             └── myApp.html
 
-C'est ce petit outil 'pub' qui va s'occuper de nous créer et remplir les répertoires build et package.
-    * package : 
+C'est ce petit outil 'pub' qui va s'occuper de nous créer et remplir les répertoires build et package:
+    * package
         Rassemble toutes les dépendances.
         Pour que pub puisse le créer, il faut lui fournir un fichier pubspec.yaml qui liste toutes ces dépendances.
-    * build :
+    * build
         Dartium possède une implémentation de la VM dart, mais c'est aujourd'hui le seul. Tout le code .dart qui doit s'executer chez le client est alors compilé vers du .js .
 
 
