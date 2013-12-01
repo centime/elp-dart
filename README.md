@@ -86,7 +86,7 @@ Et bien sûr :
 
         https://api.dartlang.org/docs/channels/stable/latest/index.html
 
-/!\ Dart est encore un projet jeune, et à ce titre évolue beaucoup. De nombreux exemples sur le net (y compris ailleurs sur le site dartlang !) peuvent ne pas être à jour et ne plus fonctionner. En cas de doutes, reportez vous toujours à cette documentation.
+/!\ Dart est encore un projet jeune, et à ce titre évolue beaucoup. De nombreux exemples sur le net (y compris sur d'autres pages du site dartlang !) peuvent ne pas être à jour et ne plus fonctionner. En cas de doutes, reportez vous toujours à cette documentation.
 
 
 Organisation d'un projet :
@@ -127,7 +127,7 @@ C'est ce petit outil 'pub' qui va s'occuper de nous créer et remplir les réper
         Rassemble toutes les dépendances.
         Pour que pub puisse le créer, il faut lui fournir un fichier pubspec.yaml qui liste toutes ces dépendances.
     * build
-        Dartium possède une implémentation de la VM dart, mais c'est aujourd'hui le seul. Tout le code .dart qui doit s'executer chez le client est alors compilé vers du .js .
+        Dartium intègre la VM dart, mais c'est aujourd'hui le seul. Tout le code .dart qui doit s'executer chez le client est alors compilé vers du .js .
 
  _________________________________________________________
 
