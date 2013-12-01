@@ -20,7 +20,7 @@ Organisation d'un projet :
 Sources :
 
    *     myApp
-        ├── build
+   *    ├── build
         │   ├── packages
         │   │   └── browser
         │   │       ├── dart.js
