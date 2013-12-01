@@ -17,7 +17,17 @@ Sont également mis à disposition :
 
 Organisation d'un projet :
 
-   *     myApp
+   *   myApp (sources)
+        ├── pubspec.yaml
+        ├── README.md
+        ├── myServer.dart
+        └── web
+            ├── myApp.css
+            ├── myApp.dart
+            └── myApp.html
+
+
+   *   myApp (en fonctionnement)
         ├── build
         │   ├── packages
         │   │   └── browser
