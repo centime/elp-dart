@@ -18,15 +18,15 @@ Sont également mis à disposition :
 Organisation d'un projet :
 
    *  myApp (sources)
-   *     ├── pubspec.yaml
-   *     ├── README.md
-   *     ├── myServer.dart
-   *     └── web
-   *         ├── myApp.css
-   *         ├── myApp.dart
-   *         └── myApp.html
-   *
-   *  myApp (en fonctionnement)
+        ├── pubspec.yaml
+        ├── README.md
+        ├── myServer.dart
+        └── web
+            ├── myApp.css
+            ├── myApp.dart
+            └── myApp.html
+   
+     myApp (en fonctionnement)
      
 
 C'est ce petit outil 'pub' qui va s'occuper de nous créer et remplir les répertoires build et package:
