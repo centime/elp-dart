@@ -3,6 +3,8 @@ Dart
 
 I. Presentation
 
+Dart is an open-source Web programming language developed by Google. It was unveiled at the GOTO conference in Aarhus, 2011 October 10–12.[3] The goal of Dart is "ultimately to replace JavaScript as the lingua franca of web development on the open web platform" wikipedia
+
 Sur le language :
 
     The Dart VM reads and executes source code, which means there is no compile step between edit and run.
