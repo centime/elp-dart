@@ -15,12 +15,9 @@ Sont également mis à disposition :
 * Un navigateur web avec la VM dart integrée
     dartium (basé sur chromium)
 
+Organisation d'un projet :
 
-
-
-Organisation d'un projet basique:
-
-   *   myApp
+   *     myApp
         ├── build
         │   ├── packages
         │   │   └── browser
@@ -40,7 +37,6 @@ Organisation d'un projet basique:
             ├── myApp.dart
             └── myApp.html
 
-Le fichier pubspec.yaml recense l'ensemble des packages dont dépend notre projet. On pourra tous les installer en une seule commande à l'aide de pub.
 
 
 
