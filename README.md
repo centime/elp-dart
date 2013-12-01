@@ -20,8 +20,7 @@ Sont également mis à disposition :
 
 Organisation d'un projet basique:
 
-    Les sources :
-   *   myApp
+   *   myApp (sources)
         ├── pubspec.yaml
         ├── README.md
         ├── myServer.dart
@@ -30,8 +29,7 @@ Organisation d'un projet basique:
             ├── myApp.dart
             └── myApp.html
 
-    L'app, en fonctionnement :
-   *   myApp
+   *   myApp (en fonctionnement)
         ├── build
         │   ├── packages
         │   │   └── browser
