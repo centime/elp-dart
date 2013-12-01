@@ -20,8 +20,7 @@ Sont également mis à disposition :
 
 Organisation d'un projet basique:
 
-
-   *   myApp (en fonctionnement)
+   *   myApp
         ├── build
         │   ├── packages
         │   │   └── browser
@@ -40,14 +39,6 @@ Organisation d'un projet basique:
             ├── myApp.css
             ├── myApp.dart
             └── myApp.html
-
-C'est ce petit outil 'pub' qui va s'occuper de nous créer et remplir les répertoires build et package:
-    * package
-        Rassemble toutes les dépendances.
-        Pour que pub puisse le créer, il faut lui fournir un fichier pubspec.yaml qui liste toutes ces dépendances.
-    * build
-        Dartium possède une implémentation de la VM dart, mais c'est aujourd'hui le seul. Tout le code .dart qui doit s'executer chez le client est alors compilé vers du .js .
-
 
 Le fichier pubspec.yaml recense l'ensemble des packages dont dépend notre projet. On pourra tous les installer en une seule commande à l'aide de pub.
 
