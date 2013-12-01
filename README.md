@@ -29,6 +29,10 @@ Organisation d'un projet basique:
             ├── myApp.dart
             └── myApp.html
 
+_
+
+
+
    *   myApp (en fonctionnement)
         ├── build
         │   ├── packages
