@@ -17,34 +17,17 @@ Sont également mis à disposition :
 
 Organisation d'un projet :
 
-   *myApp (sources)
-        ├── pubspec.yaml
-        ├── README.md
-        ├── myServer.dart
-        └── web
-            ├── myApp.css
-            ├── myApp.dart
-            └── myApp.html
-                         
-      myApp (en fonctionnement)
-        ├── build
-        │   ├── packages
-        │   │   └── browser
-        │   │       ├── dart.js
-        │   │       └── interop.js
-        │   ├── myApp.css
-        │   ├── myApp.dart.js
-        │   └── myApp.html
-        ├── packages
-        │   └── browser -> /home/centime/.pub-cache/hosted/pub.dartlang.org/browser-0.9.0/lib
-        ├── pubspec.yaml
-        ├── README.md
-        ├── myServer.dart
-        └── web
-            ├── packages -> ../packages
-            ├── myApp.css
-            ├── myApp.dart
-            └── myApp.html
+   *  myApp (sources)
+   *     ├── pubspec.yaml
+   *     ├── README.md
+   *     ├── myServer.dart
+   *     └── web
+   *         ├── myApp.css
+   *         ├── myApp.dart
+   *         └── myApp.html
+   *
+   *  myApp (en fonctionnement)
+     
 
 C'est ce petit outil 'pub' qui va s'occuper de nous créer et remplir les répertoires build et package:
     * package
