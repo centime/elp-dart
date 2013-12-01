@@ -18,6 +18,7 @@ Sont également mis à disposition :
 Organisation d'un projet :
 
 Sources :
+
    *     myApp
         ├── build
         │   ├── packages
@@ -39,6 +40,7 @@ Sources :
             └── myApp.html
 
 En cours de fonctionnement :
+
    *   myApp
         ├── build
         │   ├── packages
