@@ -20,7 +20,7 @@ _Organisation d'un projet :
 
 
    *     myApp
-   *     |- build
+        |- build
         |   |- packages
         |   |   |- browser
         |   |       |- dart.js
